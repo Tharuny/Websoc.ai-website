@@ -1,0 +1,27 @@
+.reveal-type-section {
+    height: 100vh;
+    padding: 0 clamp(4rem, 12vw, 20rem);
+    display: grid;
+    place-content: center;
+  }
+  
+  .reveal-type-section:nth-child(1) {
+    border-bottom: 0.3px solid white;
+    color: silver;
+    font-size: 40px;
+  }
+  
+  .reveal-type-section:nth-child(3) {
+    background: #ffff00;
+  }
+  
+  .reveal-type-section:nth-child(4) {
+    background: rgb(29, 29, 29);
+    color: white;
+  }
+  
+  .reveal-type-section p {
+    font-family: "DirtyLine"; 
+    font-size: clamp(2rem, 5vw, 8rem);
+  }
+  

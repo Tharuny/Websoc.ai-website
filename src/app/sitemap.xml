@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://websoc.ai/</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/home</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/about</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/services</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/products</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/portfolio</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/contact</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/internship</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=LLMs</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=Agents</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=HMS</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=LMS</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=OCC</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://websoc.ai/productreveal?myParam=CMS</loc>
+  <lastmod>2024-03-28T14:38:25+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

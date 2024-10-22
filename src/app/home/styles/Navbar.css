@@ -1,0 +1,111 @@
+.menuBlock{
+  width:430px;
+  height:400px;
+  position:fixed;
+  opacity:1;
+  top:-100%;
+  z-index: 1;
+}
+.menuText {
+  font-size: 20px;
+  padding-bottom:2%;
+}
+.menuText:hover{
+  color:rgb(128, 128, 128,0.5);
+  transform: translate(3px,-5px);
+  transition: all 0.5s ease-in-out;
+}
+.linkDiv{
+margin-top:-20px;
+opacity: 0;
+}
+
+@media(max-width:380px) {
+.menuText {
+  font-weight: normal;
+  font-size:20px !important;
+  padding-bottom:2% !important ;
+}
+.menuBlock{
+  width:100% !important;
+}
+.menuCloseButton{
+  width:50px !important;
+}
+.linkDiv{
+  height:auto;
+  margin-top:5% !important;
+}
+
+}
+@media(max-width:480px) and (min-width:380px){
+  .menuBlock{
+      width:100% !important;
+  }
+  .menuText {
+      font-weight: normal;
+      font-size:22px !important;
+      padding-bottom:2% !important ;
+    }
+    .linkDiv{
+      margin: 0%;
+      margin-left: 5%;
+    }
+    .menuCloseButton{
+      width:40px !important;
+    }
+}
+
+@media(max-width:600px) and (min-width:480px){
+  .menuBlock{
+      width:100% !important;
+      height:70% !important;
+  }
+  .menuText {
+      font-weight: normal;
+      font-size:25px !important;
+      padding-bottom:2%;
+    }
+    .linkDiv{
+      margin:0%;
+      margin-left:5% !important;
+    }  
+    .menuCloseButton{
+      width:50px !important;
+    }
+}
+
+@media(max-width:780px) and (min-width:600px){
+  .menuBlock{
+      width:100% !important;
+  }
+  .menuText {
+      font-weight: normal;
+      font-size:25px !important;
+      padding-bottom:1% !important;
+    }
+    .linkDiv{
+      margin:0%;
+      margin-top:0% !important;
+      margin-left: 5%;
+    }
+  .menuCloseButton{
+      width:50px;
+    }
+}
+
+@media(max-width:900px) and (min-width:780px){
+  .menuBlock{
+      width:100% !important;
+  }
+  .menuText {
+      font-weight: normal;
+      font-size:20px !important;
+      padding-bottom:10px !important;
+    }
+   
+  .menuCloseButton{
+      width:50px !important;
+    }
+ 
+}

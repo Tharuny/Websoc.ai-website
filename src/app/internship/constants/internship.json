@@ -1,0 +1,51 @@
+{
+    "IS1":
+    {
+        "title":"Note from CEO",
+        "description":"In response to the fast-paced evolution of technology and the increasing adoption of A.I.,traditional training methods have become outdated, leading to unemployment.We recognize the need to bridge the gap between education and industry demands.",
+        "featuresHeading":"Initiatives for Talent Empowerment",
+        "features":[
+                    "Addressing outdated training methods.",
+                    "Tackling rising unemployment through skill enhancement.",
+                    "Empowering young graduates with industry-relevant skills.",
+                    "Introducing intensive training and internship programs for real-world experience."
+                    ]
+    },
+    "IS2":
+    {
+        "title":"Opportunities at WEBSOC.AI",
+        "description":"Empower your career with WEBSOC.AI, a leading software company specializing in AI-powered applications, offering real-world experience and career advancement opportunities.",
+        "featuresHeading":"Why should you join",
+        "features":[
+                    "Gain hands-on experience in a professional environment distinct from traditional training institutes.",
+                    "Engage in full-time, 8-hour workdays simulating corporate dynamics, unlike short training sessions.",
+                    "Transition from intern to developer upon completion, distinguishing yourself from training institute graduates.",
+                    "Unlock potential for continued employment with WEBSOC.AI following successful internship completion."
+                    ]
+    },
+    "IS3":
+    {
+        "title":"Advanced Training & Internship Program",
+        "description":"Unlock your potential with our intensive program offering hands-on experience in Full-Stack development and AI&ML technologies.",
+        "featuresHeading":"Program Highlights",
+        "features":[
+                    "Dive deep into Full-Stack development, mastering generative AI tools, React, NextJS, and more.",
+                    "Explore the world of AI&ML with Python, Apache Spark, and data analytics techniques.",
+                    "Join a cohort of 100 interns per batch, learning in a safe environment under experienced trainers.",
+                    "Elevate your career prospects with the opportunity for continued employment after successful completion."
+                    ]
+    },
+    "IS4":
+    {
+        "title":"Program Information",
+        "description":"Experience a transformative journey with WEBSOC.AI's internship program. Acquire practical skills, gain real-world experience, and unlock opportunities in a dynamic AI-powered environment.",
+        "featuresHeading":"Program Overview",
+        "features":[
+                    "Learn and Work: Engage in team projects and gain hands-on experience.",
+                    "Internship Certificate: Receive a certificate upon program completion.",
+                    "Real-world Environment: Experience the dynamics of a software company.",
+                    "AI Integration: Learn to integrate AI tools into applications.",
+                    "Immediate Employment: Opportunities for employment post-internship, subject to test and interview performance."
+                     ]
+    }
+}

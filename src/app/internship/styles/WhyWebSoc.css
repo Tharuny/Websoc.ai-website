@@ -1,0 +1,141 @@
+.containerHolder{
+    height: auto;
+    /* background: linear-gradient(180deg, rgba(18,19,21,1) 0%, rgba(155,227,225,0.8) 50%, rgba(18,19,21,1) 100%); */
+    background: #DDE6ED;
+    flex-direction: column;
+    align-items: center;
+    font-family: Altform;
+    padding: 5%;
+}
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Altform;
+    margin-bottom: 3rem;
+    color: black
+}
+.textContainer h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 4rem; /* space between grid items */
+}
+.gridDiv{
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+    background-color: #171717;
+    border-radius: 10px;
+}
+.gridText{
+    width: 18vw;
+}
+.gridText h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.gridText p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.gridImg{
+    width: 55px;
+    height: 55px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gridImg img{
+    width: 35px;
+    height: 35px;
+}
+
+@keyframes animateGif {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.gridDiv:hover img{
+    animation: animateGif 1s linear;
+}
+
+.gridDiv:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.gridDiv:not(:hover){
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+@media(max-width: 1025px){
+    .textContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gridContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gridDiv{
+        width: 300px;
+        height: 150px;
+    }
+    .gridText{
+        width: 20vw;
+    }
+    .gridText h3{
+        font-size: 1.1rem;
+    }
+    .gridText p{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width: 768px){
+    
+    .gridDiv{
+        width: 35vw;
+    }
+    .gridText{
+        width: 22vw;
+    }
+    .gridText h3{
+        font-size: 0.9rem;
+        transition: 0.5s;
+    }
+    .gridText p{
+        font-size: 0.6rem;
+        transition: 0.5s;
+    }
+    .gridImg{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media(max-width: 480px){
+    .gridContainer{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;   
+        justify-content: center;
+        gap: 3rem;
+        padding: 0 8%;
+    }
+    .pTextContainer{
+        font-size: 0.8rem;
+    }
+    .gridDiv{
+        width: 75vw;
+        height: 80px;
+    }
+    .gridText{
+        width: 55vw;
+    }
+}

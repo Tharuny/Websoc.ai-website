@@ -1,0 +1,46 @@
+@media screen and (min-width:768px) and (max-width:1024px){
+    .textsize{
+      font-size:14px;
+      padding-right:20px;
+      transition: 0.5s;
+    }
+    .headtext{
+      font-size:16px;
+      transition: 0.5s;
+    }
+  }
+
+  @media(max-width:900px){
+    .textsize{
+      font-size: 12px;
+    }
+  }
+  @media(max-width:768px){
+    .sectionBlock{
+      gap: 35px;
+      transition: 0.5s;
+    }
+    .sectionReverse{
+      display:flex;
+      flex-direction: column-reverse;
+    }
+    .textsize{
+      font-size: 14px;
+    }
+    .hmsHeader{
+      font-size:40px;
+      transition: 0.5s;
+    }
+    .sectionImg{
+      width:80%;
+      height:80%
+    }
+    
+    .text2{
+      padding-left: 0;
+    }
+    .text4{
+      padding-left: 0;
+      margin-bottom: 15px;
+    }
+  }

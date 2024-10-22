@@ -1,0 +1,40 @@
+.studentReview-Container {
+  overflow: hidden;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  gap: 16px;
+  justify-content: between;
+  background-color: #121315;
+}
+
+.studentReview-Animate {
+  display: flex;
+  width: 100%;
+  justify-content: between;
+}
+
+.studentReview-ReviewSection {
+  width: 22vw;
+  height: 38vh;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  
+}
+
+.studentReview-Image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.studentReview-Text {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}

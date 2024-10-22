@@ -1,0 +1,113 @@
+.blockDiv:hover {
+    transform: scale(1.05);
+    background-color: #16191b !important;
+    border: 2px solid #16191b !important;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.blockDiv:not(:hover) {
+    border: 1px solid white !important;
+    transform: scale(1);
+    background-color: #121315 !important;
+    color: white;
+    transition: 0.7s;
+    z-index: 0;
+}
+
+@media(min-width:1025px){
+    .blockDiv{
+        height: 470px !important;
+        width: 320px !important;
+        padding: 10px !important;
+        transition: 0.6s;
+    }
+}
+@media(max-width:1024px){
+    .hscrollBlockTitle{
+        font-size: 1.8rem !important;
+        padding: 15px !important;
+        transition: 0.5s;
+    }
+    .hscrollBlockDescription{
+        font-size: 1rem !important;
+        padding: 15px !important;
+        transition: 0.8s;
+    }
+    .blockDiv{
+        height: 350px !important;
+        width:250px !important;
+        padding: 10px !important;
+        transition: 0.6s;
+    }
+}
+
+@media(max-width:780px){
+    #skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+        gap: 5px;
+        justify-content: center;
+        height: auto;
+        transition: 0.5s;
+      }
+    
+      .blockDiv {
+        width: 30vw !important; /* Ensure the width spans the entire grid cell */
+        transition: 0.5s;
+      }
+
+    .hscrollBlockTitle{
+        font-size: 1.5rem !important;
+        transition: 0.5s;
+    }
+    .hscrollBlockDescription{
+        font-size: 1rem !important;
+        transition: 0.8s;
+    }
+}
+  
+@media(max-width:600px){
+    .blockDiv{
+        width: 35vw !important;
+        height: 50vh !important;
+    }
+    .hscrollBlockTitle{
+        font-size: 1.2rem !important;
+        transition: 0.5s;
+    }
+    .hscrollBlockDescription{
+        font-size: 0.8rem !important;
+        transition: 0.8s;
+    }
+}
+@media(max-width:480px){
+    .hscrollOuterBlock section{
+        height: 55vh !important;
+    }
+    .blockDiv{
+        width: 80vw !important;
+        height: 44vh !important;
+    }
+    .hscrollBlockTitle{
+        font-size: 2rem !important;
+    }
+    .hscrollBlockDescription{
+        font-size: 1.2rem !important;
+    }
+}
+@media(max-width:380px){
+    .hscrollOuterBlock section{
+        height: 65vh !important;
+    }
+    .blockDiv{
+        height: 52vh !important;
+    }
+    .hscrollBlockTitle{
+        font-size: 1.8rem !important;
+    }
+    .hscrollBlockDescription{
+        font-size: 1rem !important;
+    }
+}
+  

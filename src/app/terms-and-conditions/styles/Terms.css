@@ -1,0 +1,86 @@
+.policyContainer{
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-weight: 300;
+    color: white;
+    border-radius: 10px;
+}
+.policyMainDiv{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.policyMainDiv h1{
+    font-size: 3rem;
+    font-weight: 400;
+    /* font-family: Altform; */
+    text-align: center;
+}
+.policyMainDiv hr{
+    border: none;
+    border-top: 1px solid white; /* Adjust color and thickness as needed */
+    margin: 20px;
+    width: 100%;
+}
+.policyDiv{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;   
+}
+.policyDiv2{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;   
+    gap: 1.5rem;
+}
+.policyDiv2 h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.policyDiv2 h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.policyDiv2 p{
+    margin-left: 1rem;
+}
+.policyDiv2List ul{
+    margin-left: 1rem;
+}
+.policyDiv2List ul>li{
+    margin-top: 0.5rem;
+}
+.policyDiv2List span{
+    font-weight: 500;
+}
+
+@media(max-width: 768px){
+    .policyMainDiv h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .policyDiv2 h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .policyDiv2 h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}

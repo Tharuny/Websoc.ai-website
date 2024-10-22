@@ -1,0 +1,33 @@
+.client-name{
+    font-family: 'Dirtyline';
+    position: relative;
+  }
+  .client-name p {
+    padding: 5px; 
+    text-shadow: 
+      2px 2px 0 #121315;
+  }
+  .ourClients{
+    font-family: 'Dirtyline';
+    transition: 0.5s;
+    position: fixed;
+    left: '4rem';
+  }
+  .blockline{
+    background-color: #9be3e1;
+    position: absolute;
+    left: 0;
+  }
+  .blockdiv{
+    background-color: #9be3e1;
+    position: absolute;
+    right: 0;
+  }
+  .divline{
+    background-color: #9be3e1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+  }

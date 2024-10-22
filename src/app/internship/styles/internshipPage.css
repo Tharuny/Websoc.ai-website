@@ -1,0 +1,86 @@
+.container {
+  background-color: #121315;
+}
+.card {
+  background-color: #121315;
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.5s;
+  box-shadow: 6px 6px 6px 6px rgba(1, 1, 1, 1);
+}
+.fontHeight{
+  line-height: 35px;
+}
+
+.cardContent {
+  transform: translateZ(500px);
+}
+
+.toggleButton {
+  transition: background-color 0.3s;
+}
+
+.toggleButton:hover {
+  background-color: #262626;
+}
+
+.features {
+  transform: translateZ(25px);
+}
+
+@font-face {
+  font-family: "Altform";
+  src: url("../fonts/Altform-Regular.woff2") format("truetype");
+  font-weight: normal;
+}
+
+.font-Altform {
+  font-family: "Altform";
+}
+
+@media (max-width: 1024px) {
+  .col-span-12.sm\:col-span-3 {
+    padding-bottom: 20px; /* Adjust the value based on your preference */
+  }
+  .col-span-12.sm\:col-span-6 {
+    padding-left: 30px; /* Adjust the value based on your preference */
+  }
+}
+
+@media (max-width: 767px) {
+  .col-span-12.sm\:col-span-3 {
+    grid-column: span 12; /* Make it take the full width */
+    margin-bottom: 1rem; /* Add margin at the bottom to separate the two divs */
+  }
+
+  .col-span-12.sm\:col-span-6 {
+    grid-column: span 12; /* Make it take the full width */
+  }
+}
+
+
+@media(max-width:639px){
+  .col-span-12{
+    grid-column: span 12;
+  }
+  .fontHeight{
+    line-height:25px;
+    padding-left: 0;
+  }
+  .card{
+    margin:0px
+  }
+}
+
+@media(max-width:480px) {
+  .cardContent{
+    margin-left: 0;
+    padding: 15px;
+  }
+  .col-span-12{
+    grid-column: span 12;
+    padding:15px;
+  }
+}

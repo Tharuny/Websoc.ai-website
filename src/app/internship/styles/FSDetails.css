@@ -1,0 +1,137 @@
+.outerDetailDiv{
+    padding: 8%; 
+}
+.detailDiv{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 2%; 
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 100; /* Add the z-index property */
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.5s;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 1);
+    background-color: #DDE6ED; /* Light gray background color */
+    transition: 0.5s;
+}
+.detailDiv > div {
+    width: 50%;
+    padding: 2%;
+}
+.detailDiv{
+    /* background-color: #050505; */
+}
+.briefDetailDiv{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: 5vh;
+    border-top: 1px solid #121315;
+    border-bottom: 1px solid #121315;
+    align-items: center;
+}
+.briefDetailDiv ul{
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textDetailDiv{
+    display: flex;
+    flex-direction: column;
+}
+.textDetailDiv h1{
+    font-family: Altform;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.textDetailDiv li{
+    font-family: Altform;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+.detailBtnBrochure{
+    display: flex;
+    flex-direction: column;
+}
+.downloadBrochure{
+    font-size: 0.8em;
+    width: 30%;
+    padding-left: 0.5em;
+}
+.downloadBrochure:hover{
+    color: #00337C;
+}
+.applyBtnDiv{
+    font-family: Altform;
+    width: 28%;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    background-color: #9be3e1;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+}
+@media(max-width: 1024px){
+    .detailDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        transition: 0.5s;
+    }
+    .detailDiv > div{
+        width: 85%;
+        transition: 0.5s;
+    }
+    .detailBtnBrochure{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        transition: 0.5s;
+    }
+}
+@media(max-width: 650px){
+    .textDetailDiv h1{
+        font-size: 1.5em;
+        transition: 0.5s;
+    }
+    .textDetailDiv{
+        font-size: 0.8em;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width: 480px){
+    .briefDetailDiv{
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        transition: 0.5s;
+    }
+    .briefDetailDiv ul{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        transition: 0.5s;
+    }
+    .downloadBrochure{
+        width: 40%;
+        transition: 0.5s;
+    }
+    .applyBtnDiv{
+        width: 40%;
+        transition: 0.5s;
+    }
+}
+@media(max-width: 380px){
+    .downloadBrochure{
+        width: 45%;
+    }
+}

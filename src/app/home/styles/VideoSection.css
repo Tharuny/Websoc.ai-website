@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+  .videosection {
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width:600px){
+  .videosection {
+    height:500px !important;
+  }
+}
+
+@media(max-width:600px) and (min-width:480px){
+  .videosection {
+    height:400px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .videosection {
+    height:250px !important;
+    transition: 0.5s;
+  }
+}

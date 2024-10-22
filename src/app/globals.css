@@ -1,0 +1,384 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #121315;
+  margin: 0;
+  padding: 0;
+  /* removes horizontal scroll bar  */
+  overflow-x: hidden;
+}
+
+navBar {
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Dune Rise";
+  src: url("./home/fonts/dune_rise/Dune_Rise.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-dune-rise {
+  font-family: "Dune Rise", sans-serif;
+}
+
+@font-face {
+  font-family: "Dirtyline";
+  src: url("./home/fonts/dune_rise/Dirtyline36Daysoftype2022-Reg.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-dirtyline {
+  font-family: "Dirtyline";
+}
+
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 400; /* Adjust weight as needed */
+  src: url("./home/fonts/dune_rise/NewFont.woff2") format("woff2"); /* Adjust file format and path */
+}
+
+.font-syne {
+  font-family: "Syne";
+  font-weight: normal;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url("./home/fonts/dune_rise/DM Mono.woff2") format("truetype");
+  font-weight: normal;
+}
+
+.font-DmMono {
+  font-family: "DM Mono";
+}
+
+.rotate-360-hover:hover {
+  animation: rotate360 0.5s linear;
+}
+
+/* .magic-cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  background-color: #c5fcfc; Adjust the color as needed */
+/* border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+  transition: transform 0.2s ease-out;
+} */
+
+/* Add wave animation */
+/* @keyframes wave {
+  0%,
+  100% {
+    box-shadow: 0 0 0 10px rgba(255, 69, 0, 0.2), 0 0 0 20px rgba(255, 69, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 20px rgba(255, 69, 0, 0.2), 0 0 0 40px rgba(255, 69, 0, 0);
+  }
+} */
+
+/* .magic-smoke {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9998;
+} */
+
+/* .magic-cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  background-color: #c5fcfc;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+} */
+
+/* .magic-smoke {
+  position: fixed;
+  width: 100px; /* Adjust the values as needed */
+/* height: 100px; Adjust the values as needed */
+/* */
+/* background: radial-gradient(
+    circle,
+    rgba(155, 215, 215, 1) 0%,
+    rgba(155, 215, 215, 1) 80%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0s ease;
+  z-index: 9998;
+} */
+
+.magic-cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  background-color: #c5fcfc;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.magic-smoke {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: transparent; /* No background for Three.js canvas */
+  pointer-events: none;
+  z-index: 9998;
+}
+
+.scrollingImg {
+  width: 900px;
+  height: 600px;
+}
+@media (max-width: 768px) and (min-width:480px){
+  .image-container2 {
+    margin-top: 100px;
+  }
+  .imgTextContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container1 {
+    order: 2;
+  }
+  .text-container1 {
+    order: 1;
+    margin-bottom: 130px;
+  }
+  .text-heading-reveal span {
+    font-size:40px !important;
+  }
+  .text-heading-reveal{
+    margin-left:0%;
+    margin-top:20% !important;
+  }
+  .sectionResponse{
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .text-heading-reveal span {
+    font-size: 30px !important;
+  }
+  .text-heading-reveal{
+    margin-left:0%;
+    margin-top: 20% !important;
+    height:300px !important;
+  }
+  .sectionResponse{
+    overflow-x: hidden !important;
+  }
+  .splash-screen {
+    position: fixed;
+    justify-content: center;
+    align-items: start;
+  }
+}
+@media (max-width: 1054px) {
+  .text-container1 {
+    font-size: 12px;
+    margin-top: 80px;
+  }
+  .text-container2 {
+    font-size: 12px;
+    margin-bottom: 100px;
+  }
+  .text-heading-reveal span {
+    font-size: 54px;
+    margin-bottom: 0px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9be3e1;
+}
+
+.navBar span {
+  transition: 0.5s;
+}
+.text-heading-reveal {
+  font-family: "Dirtyline", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 13%;
+  font-size: 75px;
+  height: 40vh;
+  width: 100vw;
+  gap: 0;
+  margin-bottom: 0px;
+}
+/*@media (min-width: 1260px) or (min-height: 660px) {
+  .text-heading-reveal {
+    margin-top: 10%;
+    bottom: 10%;
+  }
+  .text-heading-reveal span {
+    font-size: 75px;
+  }
+}*/
+
+
+/* Lazy Load Styles*/
+.splash-screen {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Dune Rise", "sans-serif";
+  background-color: #000;
+  color: #111;
+  line-height: 1;
+  font-size: calc(7vw + 10px);
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  .splash-screen {
+    padding: 20px;
+    font-size:clamp(20px,30px,40px);
+  }
+}
+
+.lazyload-textcontainer > span {
+  text-transform: uppercase;
+  /* opacity: 0.3; */
+  animation: glow 2.2s ease normal;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #9be3e1, 0 0 50px #9be3e1, 0 0 100px #9be3e1;
+  }
+
+  10%,
+  90% {
+    color: #111;
+    text-shadow: #9be3e1;
+  }
+}
+
+.lazyload-textcontainer > span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.lazyload-textcontainer > span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.lazyload-textcontainer > span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.lazyload-textcontainer > span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.lazyload-textcontainer > span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+.lazyload-textcontainer > span:nth-child(7) {
+  animation-delay: 1.8s;
+}
+.lazyload-textcontainer > span:nth-child(8) {
+  animation-delay: 2.1s;
+}
+
+
+@media(max-width:380px) {
+  .sectionResponse{
+    overflow-x: hidden !important;
+  }
+  .text-heading-reveal{
+    margin-top: 20%;
+  }
+}
+
+@media(max-width:1024px) and (min-width:768px){
+  .text-heading-reveal{
+    margin-top:40% !important;
+    height: 300px;
+  }
+  .sectionResponse{
+    overflow-x: hidden;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.scroll-to-top button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.scroll-to-top button:hover {
+  background-color: #9be3e1;
+  color: #000;
+}

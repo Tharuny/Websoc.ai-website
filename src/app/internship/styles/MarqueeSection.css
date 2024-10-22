@@ -1,0 +1,65 @@
+.marqueeBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: #121315;
+  margin-bottom: 15vh;
+}
+
+.marqueeContainer {
+  overflow: hidden;
+  background: #121315;
+  cursor: ew-resize;
+  white-space: nowrap;
+  padding: 0 0;
+}
+
+.marqueeTitle {
+  font-family: "Canopee", sans-serif;
+  font-size: 12vw;
+  position: relative;
+  color: #99948d;
+  display: inline-block;
+  margin: 0;
+  padding: 0 15%;
+  will-change: transform;
+}
+@media(max-width: 1024px){
+  .heroButton button{
+    height: 40px;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+}
+@media(max-width: 768px){
+  .heroButton button{
+    font-size: 0.75rem;
+    width: 15vw;
+    height: 8vh;
+}
+}
+@media(max-width: 600px){
+  .heroButton button{
+    font-size: 0.5rem;
+    width: 12vw;
+    height: 6vh;
+}
+}
+@media(min-width: 1025px) or (min-height: 650px){
+  .heroButton button{
+      height: 40px;
+      width: 120px;
+      font-size: 1rem;
+      transition: 0.5s;
+  }
+}
+@media(max-width:600px){
+  .heroButton button{
+    height:50px;
+    width:130px
+  }
+  .heroButton a{
+    font-size: 15px;
+  }
+}
